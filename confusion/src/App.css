@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+/* .nbar {
+  margin-top: 0px;
+  background-color: #333333;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.nbar a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding-left: 0px;
+  background-color: #503d81;
+  margin: 0px 0px;
+  margin-bottom: 20px;
+} */
+
+.ri {
+  text-align: right;
+}
+
+.first {
+  background: #dddddd;
+
+}
+
+.nbar li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin: 20px 10px 0px 10px;
+  background-color: #f1f1f1;
+}
+
+.column img {
+  width: 100%;
+}
+
+.title {
+  color: gray;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: inline-block;
+  background-color: #c2b506;
+  color: white;
+  width: 100%;
+}
+
+
+.filmimg {
+  width: 253px;
+  height: 406px;
+}
+
+.actice {
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* css design */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/*css Detail*/
+
+.badge {
+  background-color: red;
+  color: white;
+  width: 100px;
+  font-weight: bold;
+  float: left;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+
+.container-detail {
+  width: 85%;
+  float: right;
+}
+
+.product-tumb {
+  background-color: #f0f0f0;
+}
+
+.product-tumb img {
+  width: 500px;
+  height: 300px;
+}
+
+.product-details {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.product-price {
+  color: #fbb946;
+  font-weight: bold;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
